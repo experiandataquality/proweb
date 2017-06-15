@@ -13,7 +13,7 @@ View the full [Pro Web documentation](http://edq.com/documentation/apis/pro-web)
 
 ## Getting started
 
-Download or clone the repository. You will need to copy the files to your web server in order to test them out.
+Download or clone the repository. You will need to copy the files in the C# folder to your web server in order to test them out.
 
 
 ### Configuring The Server Path
