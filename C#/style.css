@@ -1,0 +1,237 @@
+/****
+ **** QAS Pro Web > (c) Experian > www.edq.com
+ **** Web > Address Capture, Address Verification > Style sheet
+ **** Intranet > Singleline > Style sheet
+ ****/
+
+
+body {
+	background-color: white;
+	color: black;
+	font-family: verdana, arial, sans-serif;
+	font-size: 67%;
+}
+
+h1 {
+	font-size: 160%;
+}
+h2 {
+	font-size: 140%;
+}
+h3 {
+	font-size: 130%;
+}
+
+a {
+	border-bottom: 1px solid #3353AF;
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: #3353AF;
+}
+a img, a.img {
+	border: 0;
+}
+label em, button em {				/* <em> indicates accesskey (i.e. alt+F) */
+	font-style: normal;
+	text-decoration: underline;
+}
+
+
+/**** Tables ****/
+
+
+table {
+	border-collapse: collapse;
+	font-size: 100%;
+	margin: 2em 2em 2em 2em;
+}
+th {
+	font-size: 125%;
+}
+
+/* table.std */
+table.std {
+	width: 96%;
+	margin: 1em 2% 1em 2%;
+}
+td.std {
+	padding-left: 0;
+	padding-top: 0;
+}
+
+th.std{
+
+	background-color: #015CAE;
+	color: white;
+	border-bottom: white 0.7em solid;
+	border-top: white 1.5em solid;
+	font-size: 135%;
+	padding: 0.2em 0.5em;
+	text-align: left;
+}
+
+table.std p {
+	margin-bottom: 0.5em;
+	margin-top: 0em;
+	margin-left: 1em;
+}
+
+/* table.banner */
+th.banner {
+	background-color: #015CAE;
+	background-image: url(img/experian.gif);
+	background-position: 99% 50%;
+	background-repeat: no-repeat;
+	border-bottom: white 1.2em solid;
+	color: white;
+	font-size: 135%;
+	padding: 0.5em 0.5em;
+	text-align: left;
+}
+th.banner h1, th.banner h2 {
+	margin-bottom: 0;
+	margin-top: 0;
+	color: white;
+}
+th.banner h2 {
+	font-weight: normal;
+}
+th.banner a, th.banner a:hover {
+	color: #000066;
+	border-bottom: none;
+	color: white
+}
+
+/* table.pickle */
+table.pickle {
+	border: 0;
+	border-collapse: collapse;
+}
+td.pickle {
+	padding: 0;
+}
+
+
+/* table.indent */
+table.indent, p.indent {
+	margin-left: 1.5em;
+}
+table.indent td {
+	border-bottom: 0;
+}
+td.indent, td.gap {
+	padding-left: 1.5em;
+}
+
+/* table -> Rapid Address */
+td.label {
+	padding-right: 1.5em;
+}
+
+td.line input {
+	width: 21em;
+}
+
+table.action {
+	margin-top: -1em;
+}
+tr.action td {
+	text-align: right;
+}
+
+
+/**** Special ****/
+
+
+img.icon {
+	border: 0;
+	margin-right: 1em;
+	vertical-align: middle;
+}
+
+.sub {
+	/* Used for subsiduary results */
+	white-space: pre;
+        color: blue
+}
+.pre {
+	white-space: pre;
+}
+.readonly {
+	background-color: #F0F0F0;
+}
+
+.debug {
+	visibility: visible;
+	color: green;
+	margin: 1em 0em 1em 0em;
+	border: 0;
+	vertical-align: middle;
+}
+.error {
+	color: red;
+}
+
+textarea {
+	font-family: verdana, arial, sans-serif;
+	font-size: 100%;
+}
+
+/**** Index Table ****/
+
+
+td.product {
+	font-size: 125%;
+	font-weight: bold;
+	padding-right: 1em;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+td.poweredby div {
+	float: right;
+}
+
+td.poweredby a {
+	border-bottom: 0px solid #000000;
+	text-decoration: none;	
+}
+
+div.light, p.light {
+	color: #363C49;
+}
+
+/**** Comparison Matrix ****/
+
+table.matrix {
+	margin: 2em 0em 2em 0em;
+}
+
+th.inverse {
+	background-color: #5871B6;
+	color: white;
+	font-size: 110%;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	width: 18%;
+}
+
+table.matrix td, th.inverse {
+	border: 3px solid #E1E4ED;
+}
+
+table.matrix td {
+	padding: 0.6em 0.5em;
+	vertical-align: middle;
+}
+
+table.matrix td.inverse {
+	background-color: #5871B6;
+	text-align: center;
+	color: white;
+}
+
+
+/* End */

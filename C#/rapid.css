@@ -1,0 +1,336 @@
+/****
+ **** QAS Pro Web > (c) Experian > www.edq.com
+ **** Intranet > Rapid Addressing > Standard > Style sheet > Searching
+ **** Defines the visual appearance of the searching dialog and picklist
+ ****/
+
+
+/**** Base ****/
+
+
+body {
+	background-color: white;
+	color: black;
+	font-family: verdana, arial, sans-serif;
+	font-size: 70%;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	border-bottom: 1px solid #3353AF;
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: #3353AF;
+}
+
+table {
+	border: 0;
+	border-collapse: collapse;
+	font-size: 1em;
+}
+
+
+/**** Main Searching Dialog ****/
+
+
+table.main {
+	background-color: #EAEAEA;
+	height: 100%;
+	width: 100%;
+}
+
+td.main, td.status {
+	height: 1em;	/* set a notional height so the other (results) row takes all remaining space */
+}
+td.results {
+	padding-right: 3px;
+}
+
+table.history {
+	background-color: white;
+	border-width: 2px;
+	border-style: inset;
+	width: 100%;
+}
+
+iframe.results {
+	border-width: 1px;
+	height: 100%;
+	width: 100%;
+}
+
+td.address {
+	background-color: white;
+	border-width: 2px;
+	border-style: inset;
+	padding-left: 1em;
+	vertical-align: top;
+}
+
+
+/**** Toolbar & Prompt ****/
+
+
+div.toolbar, div.prompt {
+	padding: 1em;
+}
+
+div.toolbar {
+	border-bottom: thin groove;
+}
+
+div.prompt {
+	font-weight: bold;
+}
+
+div.toolbar span.margin {	
+	padding: 0.1em 0.3em 0.1em 0.5em;
+}
+div.toolbar span.first {
+	border-right: thin groove;
+	padding-left: 0;
+}
+div.toolbar span.last {
+	border-left: thin groove;
+	padding-right: 0;
+}
+
+label {
+	cursor: pointer;
+	cursor: hand;
+}
+label em, button em {
+	font-style: normal;
+	text-decoration: underline;
+}
+
+input#searchText {
+	width: 25em;
+}
+
+input.disabled {
+	background-color: #EAEAEA;
+}
+
+option.heading {
+	background-color:#c5e6f0;
+}
+
+
+/**** Picklist ****/
+
+
+table.picklist {
+	width: 100%;
+}
+
+table.picklist td {
+	line-height: 1em;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+td.pickitem {
+}
+td.postcode {
+	padding-left: 1em;
+	white-space: nowrap;
+}
+td.score {
+	padding-left: 1em;
+	text-align: right;
+	white-space: nowrap;
+}
+
+td.pickitem div {
+	background: no-repeat 8px center;
+	height: 100%;
+	padding: 2px 0px 2px 52px;
+}
+
+td.indent1 div, table.indent1 td.pickitem div {
+	padding-left: 71px;
+	background-position: 27px center;
+}
+td.indent2 div, table.indent2 td.pickitem div {
+	padding-left: 90px;
+	background-position: 46px center;
+}
+td.indent3 div, table.indent3 td.pickitem div {
+	padding-left: 109px;
+	background-position: 65px center;
+}
+td.indent4 div, table.indent4 td.pickitem div {
+	padding-left: 128px;
+	background-position: 84px center;
+}
+td.indent5 div, table.indent5 td.pickitem div {
+	padding-left: 147px;
+	background-position: 103px center;
+}
+td.indent6 div, table.indent6 td.pickitem div {
+	padding-left: 166px;
+	background-position: 122px center;
+}
+td.indent7 div, table.indent7 td.pickitem div {
+	padding-left: 185px;
+	background-position: 141px center;
+}
+td.indent8 div, table.indent8 td.pickitem div {
+	padding-left: 204px;
+	background-position: 160px center;
+}
+td.indent9 div, table.indent9 td.pickitem div {
+	padding-left: 223px;
+	background-position: 179px center;
+}
+td.indent10 div, table.indent10 td.pickitem div {
+	padding-left: 242px;
+	background-position: 198px center;
+}
+
+td.alias div {
+	background-image: url(img/iAlias.gif);
+}
+td.aliasStep div {
+	background-image: url(img/iAliasStep.gif);
+}
+td.format div {
+	background-image: url(img/iFinal.gif);
+}
+td.halt div {
+	background-image: url(img/iNogo.gif);
+}
+td.info div {
+	background-image: url(img/iInfo.gif);
+}
+td.infoStep div {
+	background-image: url(img/iInfoStep.gif);
+}
+td.name div {
+	background-image: url(img/iName.gif);
+}
+td.nameAlias div {
+	background-image: url(img/iNameAlias.gif);
+}
+td.opened div {
+	background-image: url(img/iOpened.gif);
+}
+td.pobox div {
+	background-image: url(img/iPOBox.gif);
+}
+td.stepIn div {
+	background-image: url(img/iPicklist.gif);
+}
+td.stop div {
+	background-image: url(img/iStop.gif);
+}
+
+td.first a {
+	background-color: #E4E7F0;
+}
+td.pickitem a {
+	display: block;
+	border-bottom: 0;
+	color: black;
+	cursor: pointer;
+	cursor: hand;
+	text-decoration: none;
+	width: 100%;
+}
+td.sub a {
+	color: blue;
+}
+td.pickitem a:hover {
+	background-color: #CED5EA;
+	color: black;
+	text-decoration: none;
+}
+
+
+/**** Address ****/
+
+
+table.address {
+	width: 100%;
+}
+td.label {
+	width: 9em;
+}
+td.line {
+	padding-left: 1em;
+}
+td.line input {
+	width: 100%;
+}
+
+
+/**** Status Bar ****/
+
+
+td.status {
+	padding-left: 0.4em;
+}
+
+div.info {
+	background: no-repeat left;
+	padding: 1px 0px 1px 18px;
+}
+
+div.count {
+	border-left: thin groove;
+	float: right;
+	height: 100%;
+	padding: 1px 0px 1px 0.5em;
+	width: 9.5em;
+}
+
+tr.status td.alert {
+	background-color: #D07070;
+	color: white;
+}
+td.alert div.info {
+	background-image: url(img/alert.gif);
+}
+
+tr.status td.warning {
+	background-color: infobackground;
+}
+td.warning div.info {
+	background-image: url(img/warning.gif);
+}
+
+tr.status td.message {
+	background-color: #CED5EA;
+}
+td.message div.info {
+	background-image: url(img/info.gif);
+}
+
+tr.status td.working {
+	background-color: ghostwhite;
+}
+td.working div.info {
+	background-image: url(img/wait.gif);
+}
+
+
+/**** Developer ****/
+
+
+.debug {
+	visibility: visible;			/* DEBUG: set 'hidden' for release */
+	color: green;
+	margin: 1em 0em 1em 0em;
+	vertical-align: middle;
+}
+p.debug {
+	background: url(img/debug.gif) no-repeat left;
+	padding-left: 1.8em;
+}
+
+
+/* End */
