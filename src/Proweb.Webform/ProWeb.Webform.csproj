@@ -119,6 +119,32 @@
     <Content Include="HierAddress.aspx" />
     <Content Include="HierInput.aspx" />
     <Content Include="HierSearch.aspx" />
+    <Content Include="img\alert.gif" />
+    <Content Include="img\contracted.gif" />
+    <Content Include="img\cross.gif" />
+    <Content Include="img\debug.gif" />
+    <Content Include="img\expanded.gif" />
+    <Content Include="img\experian.gif" />
+    <Content Include="img\guide.gif" />
+    <Content Include="img\header.gif" />
+    <Content Include="img\iAlias.gif" />
+    <Content Include="img\iAliasStep.gif" />
+    <Content Include="img\iFinal.gif" />
+    <Content Include="img\iInfo.gif" />
+    <Content Include="img\iInfoStep.gif" />
+    <Content Include="img\iName.gif" />
+    <Content Include="img\iNameAlias.gif" />
+    <Content Include="img\info.gif" />
+    <Content Include="img\iNogo.gif" />
+    <Content Include="img\iOpened.gif" />
+    <Content Include="img\iPicklist.gif" />
+    <Content Include="img\iPOBox.gif" />
+    <Content Include="img\iStop.gif" />
+    <Content Include="img\poweredby.gif" />
+    <Content Include="img\proLogo.gif" />
+    <Content Include="img\tick.gif" />
+    <Content Include="img\wait.gif" />
+    <Content Include="img\warning.gif" />
     <Content Include="index.htm" />
     <Content Include="Intuitive.aspx" />
     <Content Include="KeyAddress.aspx" />
@@ -341,9 +367,7 @@
       <DependentUpon>VerifySearch.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Content\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
