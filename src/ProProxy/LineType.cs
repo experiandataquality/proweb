@@ -1,10 +1,5 @@
 ﻿namespace Experian.Qas.Proweb
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Web;
-
     /// <summary>
     /// What information is held on this address line.
     /// </summary>

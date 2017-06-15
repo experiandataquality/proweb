@@ -5,8 +5,7 @@ namespace Experian.Qas.Proweb
 {
     using System;
 
-    [global::System.Serializable]
-    public class QAServerException : ApplicationException
+    public class QAServerException : Exception
     {
         public QAServerException()
         {
@@ -22,11 +21,5 @@ namespace Experian.Qas.Proweb
         {
         }
 
-        protected QAServerException(
-          System.Runtime.Serialization.SerializationInfo info,
-          System.Runtime.Serialization.StreamingContext context)
-            : base(info, context)
-        {
-        }
     }
 }

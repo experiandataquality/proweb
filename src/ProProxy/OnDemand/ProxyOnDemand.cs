@@ -55,7 +55,7 @@ namespace Experian.Qas.OnDemand.soap{
         
         /// <remarks/>
         public ProxyOnDemand() {
-            string urlSetting = System.Configuration.ConfigurationManager.AppSettings["NOTUSED"];
+            string urlSetting = "NOTUSED";
             if ((urlSetting != null)) {
                 this.Url = urlSetting;
             }
