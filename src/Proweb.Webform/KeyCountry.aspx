@@ -1,4 +1,4 @@
-<%@ Page Language="C#" CodeFile="KeyCountry.aspx.cs" Inherits="Experian.Qas.Prowebintegration.KeyCountry" EnableViewState="false" %>
+<%@ Page Language="C#" Inherits="Experian.Qas.Prowebintegration.KeyCountry" EnableViewState="false" Codebehind="KeyCountry.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <%@ Import namespace="Experian.Qas.Proweb" %>
 <!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">

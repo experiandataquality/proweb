@@ -1,4 +1,4 @@
-<%@ Page language="c#" CodeFile="BulkVerifyInput.aspx.cs" AutoEventWireup="false" Inherits="Experian.Qas.Prowebintegration.BulkVerifyInput" enableViewState="False" %>
+<%@ Page language="c#" AutoEventWireup="false" Inherits="Experian.Qas.Prowebintegration.BulkVerifyInput" enableViewState="False" Codebehind="BulkVerifyInput.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <%@ Import namespace="Experian.Qas.Proweb" %>
 <%@ Import Namespace="System.Collections.Generic" %>  

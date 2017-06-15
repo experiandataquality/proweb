@@ -1,6 +1,6 @@
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <%@ Import namespace="Experian.Qas.Proweb" %>
-<%@ Page language="c#" CodeFile="BulkVerifySearch.aspx.cs" AutoEventWireup="false" Inherits="Experian.Qas.Prowebintegration.BulkVerifySearch" enableViewState="False" %>
+<%@ Page language="c#" AutoEventWireup="false" Inherits="Experian.Qas.Prowebintegration.BulkVerifySearch" enableViewState="False" Codebehind="BulkVerifySearch.aspx.cs" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <html>
     <head>

@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.VerifyRefine" enableViewState="False" CodeFile="VerifyRefine.aspx.cs" %>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.VerifyRefine" enableViewState="False" Codebehind="VerifyRefine.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <html> 

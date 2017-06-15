@@ -1,57 +1,18 @@
-namespace Experian.Qas.Prowebintegration 
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Routing;
+using System.Web.Security;
+using System.Web.SessionState;
+
+namespace ProWeb.Webform
 {
-    using System;
-
-    /// <summary>
-    /// Summary description for Global.
-    /// </summary>
-    public class Global : System.Web.HttpApplication
+    public class Global : HttpApplication
     {
-        public Global()
+        void Application_Start(object sender, EventArgs e)
         {
-            InitializeComponent();
+            // Code that runs on application startup
         }
-        
-        protected void Application_Start(object sender, EventArgs e)
-        {
-        }
-
-        protected void Session_Start(object sender, EventArgs e)
-        {
-        }
-
-        protected void Application_BeginRequest(object sender, EventArgs e)
-        {
-        }
-
-        protected void Application_EndRequest(object sender, EventArgs e)
-        {
-        }
-
-        protected void Application_AuthenticateRequest(object sender, EventArgs e)
-        {
-        }
-
-        protected void Application_Error(object sender, EventArgs e)
-        {
-        }
-
-        protected void Session_End(object sender, EventArgs e)
-        {
-        }
-
-        protected void Application_End(object sender, EventArgs e)
-        {
-        }
-            
-        #region Web Form Designer generated code
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {    
-        }
-        #endregion
     }
 }

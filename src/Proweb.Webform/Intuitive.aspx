@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Intuitive.aspx.cs" Inherits="Experian.Qas.Prowebintegration.Intuitive" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Experian.Qas.Prowebintegration.Intuitive" Codebehind="Intuitive.aspx.cs" %>
 
 <%@ Import Namespace="Experian.Qas.Prowebintegration" %>
 <%@ Import Namespace="Experian.Qas.Proweb" %>

@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.RapidSearch" EnableEventValidation="false" CodeFile="RapidSearch.aspx.cs" %>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.RapidSearch" EnableEventValidation="false" Codebehind="RapidSearch.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <html>

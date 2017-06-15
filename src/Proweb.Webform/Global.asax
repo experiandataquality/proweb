@@ -1,1 +1,1 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="Experian.Qas.Prowebintegration.Global" %>
+﻿<%@ Application Inherits="ProWeb.Webform.Global" Language="C#" Codebehind="Global.asax.cs" %>

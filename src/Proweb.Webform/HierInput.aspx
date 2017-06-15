@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.HierInput" enableViewState="False" CodeFile="HierInput.aspx.cs" %>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.HierInput" enableViewState="False" Codebehind="HierInput.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <%@ Import namespace="Experian.Qas.Proweb" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >

@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.HierSearch" contentType="text/html" EnableEventValidation="false" CodeFile="HierSearch.aspx.cs"%>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.HierSearch" contentType="text/html" EnableEventValidation="false" Codebehind="HierSearch.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Proweb" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >

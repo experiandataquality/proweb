@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.KeyPrompt" enableViewState="False" CodeFile="KeyPrompt.aspx.cs" %>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.KeyPrompt" enableViewState="False" Codebehind="KeyPrompt.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>

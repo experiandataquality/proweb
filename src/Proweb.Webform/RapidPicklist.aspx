@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.RapidPicklist" enableViewState="False" EnableEventValidation="false" CodeFile="RapidPicklist.aspx.cs" %>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.RapidPicklist" enableViewState="False" EnableEventValidation="false" Codebehind="RapidPicklist.aspx.cs" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <HTML>
     <HEAD>

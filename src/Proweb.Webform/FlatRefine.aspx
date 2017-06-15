@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.FlatRefine" enableViewState="False" CodeFile="FlatRefine.aspx.cs" %>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.FlatRefine" enableViewState="False" AutoEventWireup="True" Codebehind="FlatRefine.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <%@ Import namespace="Experian.Qas.Proweb" %>
 <!doctype HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">

@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.VerifySearch" enableViewState="False" CodeFile="VerifySearch.aspx.cs" %>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.VerifySearch" enableViewState="False" Codebehind="VerifySearch.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <html>

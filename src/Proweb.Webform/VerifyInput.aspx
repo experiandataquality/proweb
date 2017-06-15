@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.VerifyInput" enableViewState="False" CodeFile="VerifyInput.aspx.cs" %>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.VerifyInput" enableViewState="False" Codebehind="VerifyInput.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <%@ Import namespace="Experian.Qas.Proweb" %>
 <!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >

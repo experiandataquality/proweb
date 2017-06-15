@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.HierAddress" contentType="text/html" CodeFile="HierAddress.aspx.cs" %>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.HierAddress" contentType="text/html" Codebehind="HierAddress.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <!doctype HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
 <html>

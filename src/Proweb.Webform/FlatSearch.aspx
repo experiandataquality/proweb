@@ -1,4 +1,4 @@
-<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.FlatSearch" enableViewState="False" CodeFile="FlatSearch.aspx.cs" %>
+<%@ Page language="c#" Inherits="Experian.Qas.Prowebintegration.FlatSearch" enableViewState="False" Codebehind="FlatSearch.aspx.cs" %>
 <%@ Import namespace="Experian.Qas.Prowebintegration" %>
 <%@ Import namespace="Experian.Qas.Proweb" %>
 <%@ Import Namespace="System.Collections.Generic" %>  
