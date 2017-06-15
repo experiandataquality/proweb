@@ -1,0 +1,5 @@
+C:\Users\mitchle\Source\Repos\proweb\src\ProProxy\obj\Debug\net461\ProProxy.AssemblyInfo.cs
+C:\Users\mitchle\Source\Repos\proweb\src\ProProxy\bin\Debug\net461\ProProxy.dll
+C:\Users\mitchle\Source\Repos\proweb\src\ProProxy\bin\Debug\net461\ProProxy.pdb
+C:\Users\mitchle\Source\Repos\proweb\src\ProProxy\obj\Debug\net461\ProProxy.dll
+C:\Users\mitchle\Source\Repos\proweb\src\ProProxy\obj\Debug\net461\ProProxy.pdb

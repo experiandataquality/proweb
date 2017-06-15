@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": []
+  },
+  "packageFolders": {
+    "C:\\Users\\mitchle\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mitchle\\Source\\Repos\\proweb\\src\\ProProxy\\ProProxy.csproj",
+      "projectName": "ProProxy",
+      "projectPath": "C:\\Users\\mitchle\\Source\\Repos\\proweb\\src\\ProProxy\\ProProxy.csproj",
+      "outputPath": "C:\\Users\\mitchle\\Source\\Repos\\proweb\\src\\ProProxy\\obj\\",
+      "projectStyle": "PackageReference",
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {}
+    }
+  }
+}
